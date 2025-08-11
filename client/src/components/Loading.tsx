@@ -19,8 +19,8 @@ const Loading = () => {
   }, [nextUrl, navigate]);
 
   return (
-    <div className="flex justify-center items-center h-[95vh]">
-      <div className="animate-spin rounded-full h-20 w-20 border-4 border-gray-300 border-t-primary"></div>
+    <div className="flex justify-center items-center h-[90vh]">
+      <div className="animate-spin rounded-full h-16 w-16 border-4 border-gray-300 border-t-primary"></div>
     </div>
   )
 }

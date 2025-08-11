@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { useAppContext } from "../context/useAppContext";
 import { Link, useParams } from "react-router-dom";
 import { assets } from "../assets/assets";
