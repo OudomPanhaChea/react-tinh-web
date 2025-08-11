@@ -6,6 +6,7 @@ note/
 
 # Environment variables
 server/.env
+client/.env
 
 # Optional: OS-specific junk
 .DS_Store
