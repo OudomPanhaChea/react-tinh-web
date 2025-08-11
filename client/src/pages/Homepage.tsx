@@ -1,4 +1,3 @@
-// import React from 'react'
 import BestSeller from '../components/BestSeller'
 import BottomBanner from '../components/BottomBanner'
 import Categories from '../components/Categories'

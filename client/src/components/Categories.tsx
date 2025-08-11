@@ -1,4 +1,3 @@
-// import React from 'react'
 import { categories } from '../assets/assets'
 import { useAppContext } from '../context/useAppContext'
 

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { assets } from "../assets/assets";
 import type { AddressType } from "../utils/types";
 import { useAppContext } from "../context/useAppContext";

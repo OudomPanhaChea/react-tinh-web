@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { AppContext, type AppContextType } from './AppContext'
 import { useNavigate } from 'react-router-dom';
 import toast from 'react-hot-toast';

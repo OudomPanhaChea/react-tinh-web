@@ -1,4 +1,3 @@
-// import React from 'react'
 import { useAppContext } from '../context/useAppContext'
 import { useParams } from 'react-router-dom';
 import { categories } from '../assets/assets';
