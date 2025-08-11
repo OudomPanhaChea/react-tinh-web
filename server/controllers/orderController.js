@@ -137,7 +137,7 @@ export const stripeWebhooks = async (request, response) => {
       // mark payment as paid
       await Order.findByIdAndUpdate(orderId, {isPaid: true});
       // clear user cart
-      await User.findByIdAndUpdate(userId, {cartItems: {}});
+      await User.findByIdAndUpdate(userId, { $set: {cartItems: {}} });
 
       break;
     }
