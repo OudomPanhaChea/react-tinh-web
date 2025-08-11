@@ -1,0 +1,12 @@
+# Node dependencies
+node_modules/
+
+# Local notes or docs
+note/
+
+# Environment variables
+server/.env
+
+# Optional: OS-specific junk
+.DS_Store
+Thumbs.db
